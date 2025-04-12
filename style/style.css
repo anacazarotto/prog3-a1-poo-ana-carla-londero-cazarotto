@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    margin-bottom: 25px;
+    color: rgb(209, 25, 194);
+}
+
+.container h2 {
+    margin-bottom: 25px;
+    color: rgb(209, 25, 194);
+}
+
+p {
+    color: rgb(209, 25, 194);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button, input[type="submit"] {
+    padding: 12px;
+    background-color: rgb(209, 25, 194);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: rgb(215, 77, 228);
+}
+
+a {
+    color: rgb(209, 25, 194);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.mensagem {
+    color: red
+}
+
+.mensagem-sucesso {
+    color: green
+}
+
+label {
+    font-weight: bold;
+}
+
+
+button.sair{
+    padding: 12px;
+    background-color: rgb(209, 25, 40);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button.sair:hover {
+    background-color: rgb(228, 77, 97);
+}
+
+.actions a {
+    display: block;
+    text-decoration: none;
+    padding: 12px;
+    background-color:rgb(209, 25, 194);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.actions a:hover {
+    background-color:rgb(215, 77, 228);
+}
